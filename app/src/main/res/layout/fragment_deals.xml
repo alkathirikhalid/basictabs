@@ -1,0 +1,14 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alkathirikhalid.mytabs.DealsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_fragment_deals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+</android.support.constraint.ConstraintLayout>
